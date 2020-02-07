@@ -1,0 +1,82 @@
+body{
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+
+a{
+    font-size: 12px;
+    font-family: 'Lora', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+    color:#000;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+    
+    ul{
+        color: #000 /*color de los links aARREGLAR */;
+        list-style: none;
+        margin: 1.5em 0;
+        
+        
+         
+           }
+li{
+    display:inline-block;
+    text-align: center;
+    padding: 0em .56em;
+}
+            
+.google-aps{
+    width: auto;
+    height: auto;
+    max-width: 35px;
+    max-height: 35px;
+}
+    .link-left{
+        float: left;
+    }
+
+    .signin{
+        border:0;
+        color: #FFF;
+        background-color: rgb(10, 60, 150);
+padding: 0.5em;
+width: 5em;
+border-radius: 8px;
+    }
+    .center{
+        margin-top: 7.5em;
+        
+    }  
+    
+    .center-input, .logo, .buttons {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .input {
+        margin: 1.5em;
+        height: 2.3em;
+        width: 500px;
+        border-radius: 17px;
+    }
+        
+
+.buttons {
+padding: 0.2em;
+}
+.button {
+    font-size: 0.8em;
+    margin: .6em;
+padding: .8em;
+background-color: rgba(236, 231, 231, 0.959);
+border-radius: 6px;
+border-width: 0px;
+width: 10em;
+}
+.button:hover {
+    box-shadow: 1px;
+}
